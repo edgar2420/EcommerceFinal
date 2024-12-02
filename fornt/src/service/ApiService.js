@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // URL base de la API
-const API_URL = 'http://localhost:3000/api';
+const API_URL = 'https://backendecommerce-dy3z.onrender.com/api';
 
 
 const handleError = (error) => {

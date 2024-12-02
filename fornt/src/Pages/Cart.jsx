@@ -57,7 +57,7 @@ function Carrito() {
   
     try {
       // Primero, crea el pedido en el backend
-      const response = await fetch("http://localhost:3000/api/pedidos", {
+      const response = await fetch("https://backendecommerce-dy3z.onrender.com/api/pedidos", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -82,7 +82,7 @@ function Carrito() {
       }
   
       // Solicitar la creación del PaymentIntent
-      const paymentResponse = await fetch("http://localhost:3000/api/pagos", {
+      const paymentResponse = await fetch("https://backendecommerce-dy3z.onrender.com/api/pagos", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -121,7 +121,7 @@ function Carrito() {
     const totalAmount = calcularTotal(); // Aquí es el monto en la moneda local, no en centavos
   
     try {
-      const paymentResponse = await fetch("http://localhost:3000/api/pagos", {
+      const paymentResponse = await fetch("https://backendecommerce-dy3z.onrender.com/api/pagos", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -189,7 +189,7 @@ function Carrito() {
               }
               const productImage =
                 productImages.length > 0
-                  ? `http://localhost:3000${productImages[0]}`
+                  ? `https://backendecommerce-dy3z.onrender.com${productImages[0]}`
                   : "/images/product.jpg";
 
               return (

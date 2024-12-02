@@ -88,7 +88,7 @@ export default function MisPedidos() {
               <div key={pedido.id} className="col-md-4 mb-3">
                 <div className="card">
                   <img
-                    src={imagenProducto ? `http://localhost:3000${imagenProducto}` : "https://via.placeholder.com/150"} 
+                    src={imagenProducto ? `https://backendecommerce-dy3z.onrender.com${imagenProducto}` : "https://via.placeholder.com/150"} 
                     className="card-img-top"
                     alt="Producto"
                   />
@@ -121,7 +121,7 @@ export default function MisPedidos() {
               <div key={pedido.id} className="col-md-4 mb-3">
                 <div className="card">
                   <img
-                    src={imagenProducto ? `http://localhost:3000${imagenProducto}` : "https://via.placeholder.com/150"}
+                    src={imagenProducto ? `https://backendecommerce-dy3z.onrender.com${imagenProducto}` : "https://via.placeholder.com/150"}
                     className="card-img-top"
                     alt="Producto"
                   />
@@ -154,7 +154,7 @@ export default function MisPedidos() {
               <div key={pedido.id} className="col-md-4 mb-3">
                 <div className="card">
                   <img
-                    src={imagenProducto ? `http://localhost:3000${imagenProducto}` : "https://via.placeholder.com/150"}
+                    src={imagenProducto ? `https://backendecommerce-dy3z.onrender.com${imagenProducto}` : "https://via.placeholder.com/150"}
                     className="card-img-top"
                     alt="Producto"
                   />

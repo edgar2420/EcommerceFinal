@@ -74,14 +74,14 @@ export default function DetallesDelProducto() {
                       smallImage: {
                         alt: producto.nombre,
                         isFluidWidth: true,
-                        src: `http://localhost:3000${imagenes[0]}`,
+                        src: `https://backendecommerce-dy3z.onrender.com${imagenes[0]}`,
                       },
                       largeImage: {
-                        src: `http://localhost:3000${imagenes[0]}`,
+                        src: `https://backendecommerce-dy3z.onrender.com${imagenes[0]}`,
                         width: 1200,
                         height: 1200,
                       },
-                      enlargedImageContainerStyle: { zIndex: 9 }, // Para mostrar el zoom encima de otros elementos
+                      enlargedImageContainerStyle: { zIndex: 9 },
                     }}
                   />
                 ) : (
@@ -99,7 +99,7 @@ export default function DetallesDelProducto() {
                   {imagenes.map((imagen, index) => (
                     <img
                       key={index}
-                      src={`http://localhost:3000${imagen}`}
+                      src={`https://backendecommerce-dy3z.onrender.com${imagen}`}
                       className="me-2 rounded"
                       alt={`Imagen ${index + 1}`}
                       style={{ width: "60px", height: "60px", cursor: "pointer" }}

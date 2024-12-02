@@ -18,7 +18,7 @@ export default function ProductCard({ product }) {
   }
   const productImage =
     productImages.length > 0
-      ? `http://localhost:3000${productImages[0]}`
+      ? `https://backendecommerce-dy3z.onrender.com${productImages[0]}`
       : defaultImage;
 
   const handleProductClick = () => {

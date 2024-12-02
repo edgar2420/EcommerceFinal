@@ -48,7 +48,7 @@ export default function PedidoDetalles() {
         <div className="row g-0">
           <div className="col-md-4">
             <img
-              src={imagenProducto ? `http://localhost:3000${imagenProducto}` : "https://via.placeholder.com/150"}
+              src={imagenProducto ? `https://backendecommerce-dy3z.onrender.com${imagenProducto}` : "https://via.placeholder.com/150"}
               className="img-fluid rounded-start"
               alt="Producto"
             />
